@@ -60,9 +60,8 @@ input[type=text], select {
   }
 
   span {
-      background-color: #e20d0d;
-      color: white;
-      padding: 5px;
+      color: rgb(211, 26, 26);
+      /* padding: 2px; */
   }
   
   input[type=submit]:hover {
