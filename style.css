@@ -1,4 +1,13 @@
 
+html, body {
+  /* max-width: 100%; */
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -76,6 +85,95 @@ input[type=text], select {
     align-items: center;
     border-radius: 5px;
     background-color: #f2f2f2;
-    
     padding: 20px;
+  }
+
+  /* .rules {
+    background-color: #f2f2f2;
+  } */
+
+   section ol {
+    width: 100%;
+    padding: 40px;
+  }
+
+  .mystery {
+      color: #f76935;
+      /* background-color: ; */
+      border-radius: 10px;
+      padding: 2px 6px;
+      position: relative;
+      font-weight: bolder;
+  }
+
+  ol .points {
+    width: 85%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  ol #one {
+    margin: 15px;
+  }
+
+  ol #two {
+    margin: 15px;
+  }
+
+  ol #three {
+    margin: 15px;
+  }
+
+   ul ul .rone {
+    width: 90%;
+    margin-left: 10px;
+  }
+
+  section .rounds {
+    width: 100%;
+    padding: 5px;
+  }
+
+  section ul .roundtwo {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  section ul .roundthree {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  section ul .roundfour {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .pointtoremember {
+    width: 100%;
+    padding-top: 80px;
+  }
+
+   ul .attempts {
+    width: 100%;
+    margin-left: 14px;
+  }
+
+  ul .attempts .attemptone {
+    width: 85%;
+    padding: 5px;
+  }
+
+  ul .attempts .attempttwo {
+    padding: 5px;
+  }
+
+  ul .attempts .attemptthree {
+    padding: 5px;
+  }
+
+  ul .format {
+    padding-top: 40px;
   }
